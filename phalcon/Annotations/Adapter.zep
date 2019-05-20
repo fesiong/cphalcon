@@ -33,7 +33,7 @@ abstract class Adapter implements AdapterInterface
      *
      * @param string|object className
      */
-    public function get(var className) -> <Reflection>
+    public function get(string className) -> <Reflection>
     {
         var classAnnotations, parsedAnnotations, realClassName, reader;
 

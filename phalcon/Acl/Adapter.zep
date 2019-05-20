@@ -82,7 +82,7 @@ abstract class Adapter implements AdapterInterface, EventsAwareInterface
     /**
      * Sets the default access level (Phalcon\Acl::ALLOW or Phalcon\Acl::DENY)
      */
-    public function setDefaultAction(int defaultAccess)
+    public function setDefaultAction(int defaultAccess) -> void
     {
         let this->defaultAccess = defaultAccess;
     }
